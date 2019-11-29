@@ -1,0 +1,3 @@
+// Personality type as defined by https://www.16personalities.com/personality-types
+
+Architect (INTJ-A /INTJ-T): Imaginative and strategic thinkers, with a plan for everything.
