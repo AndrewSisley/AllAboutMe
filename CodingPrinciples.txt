@@ -38,6 +38,7 @@
     - Push continuously; documentation is useless if no one can read it, also backups up your work
     - Never throw the base Exception class, there is always a more specific type you could be using
     - Exceptions should be reserved for coding errors, and not for controlling flow; there is almost never a reason to deliberately throw them
+    - Magic numbers should never exist
 
 - Limit the scope of your changes
     - If something desirable is enabled by changes made in a branch/PR do not do them in the branch, add a JIRA and add a comment with a link to the JIRA; this helps guard against scope-creep and limits the risk to the original PR
