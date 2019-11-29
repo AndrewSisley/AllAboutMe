@@ -8,6 +8,7 @@
     - Seek to limit the lifetime/scope of an object; people reading the code wont need to worry about it for as long, and it makes it harder to mutate, note this is secondary to the need to group similar variables
     - Always dispose any owned objects that are disposable as soon as possible
     - Prefer multiple loops to one if performance is not key and the loop needs to do multiple things, keeps thing seperate and easier to read/change/delete, also helps prevent variables from being used for different purposes, helps keep commits clean and independant
+    - If an alias is only used once, then it shouldn't be used at all (unless part of an object deconstruction, where sibling aliases are also referenced), if it is used more than once still heavily consider removing it in order to reduce missdirection
 
 - Limit the number of potential code paths
     - If a method parameter can be null, then it should be optional; if it is optional it should never suprise anyone when it is null, if it is not then you don't need to code/read for imaginary cases where it is.
