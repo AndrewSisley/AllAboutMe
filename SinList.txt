@@ -1,1 +1,2 @@
-Type                Identifier          Description                                                                         Cause
+Type                Identifier          Date            Description                                                                         Cause
+Bug - internal      GEC-4181            2019-11-26      SQL migration from old to new system didn't check for existing new records          Missed a use case
