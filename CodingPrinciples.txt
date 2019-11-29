@@ -14,6 +14,7 @@
     - Use types to handle type specific code paths, do not code for concrete types within the code consuming them; allows the compiler to do a lot of heavy lifting and helps keep the codebase cohesive, keeping type specific code near or on the type they pertain to, also saves anyone investigating type A from having to read the code for type B when investigating a problem 
     - Delete any code that isnt used, including unreachable code paths
     - Only use 'new' member declarations in interfaces/abstract members, can be really confusing on concrete implementations
+    - Always use the same default params in the implementation of a function as declared on the interface, can be really confusing otherwise
     - Limit the number of public members available
         - If a public method is only used once, it should probably just be done inline or made private
         - If a public member is only accessed from it's host it should be private/protected
