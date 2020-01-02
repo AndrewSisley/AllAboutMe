@@ -1,4 +1,5 @@
 // Relative technical compentencies, ordered highest strength (10) to lowest (0)
+// Items marked with '*' have only been used outside of the the workplace/accademia
 
 Technology                                                      Proficiency score (0-10)
 C# (ASP.Net, WPF, .Net Core, Mono)                              10
@@ -16,8 +17,8 @@ Go                                                              3
 Azure                                                           3
 TFS                                                             3
 Ruby                                                            2
-C                                                               2
-C++                                                             2
+C                                                               2*
+C++                                                             2*
 Bash                                                            2
 MATLAB                                                          2
-Assembly (NASM)                                                 1
+Assembly (NASM)                                                 1*
