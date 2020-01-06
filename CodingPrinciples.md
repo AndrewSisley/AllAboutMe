@@ -1,5 +1,7 @@
 # Coding Principles
 
+This file contains a set of coding/development principles I try and stick to whilst developing.  I started work on this list shortly after reading Ray Dalio's 'Principles', and amid discussions within my (then new) team around how we want want to work.  It has so far been very useful to me personally, and made for some very interesting talking points within the team.  I very much hope to keep maintaining this file, adjusting it as I develop as a developer.
+
 - Never use anything for 2 different things
     - This includes using something to both hold data, and to do things with it; an object may wrap a data structure (such as time series), but a data structure (data model) should never do things itself (simple read-only props are permitted)
     - Constructors on data structures should be removed; firstly it is a method, and methods don't belong on data structures, secondly they obsfucate the code and hide what is being assigned to what, and they do not scale as the data structure grows (3 params today, 15 tomorrow)
