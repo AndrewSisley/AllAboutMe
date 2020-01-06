@@ -1,5 +1,5 @@
 # 16 Personalities type
-Personality type as defined by https://www.16personalities.com/personality-types
+Personality type as defined by https://www.16personalities.com/personality-types, my partner first made me take this test back in 2018 for fun (in the repo history), I then retook the test when I started this repository and will hopefully retake and update this in the future.
 
 ### Current high-level type:
 Mediator (INFP-A): Poetic, kind and altruistic people, always eager to help a good cause.
