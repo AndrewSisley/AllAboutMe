@@ -4,6 +4,8 @@ This file contains a set of coding/development principles I try and stick to whi
 
 Please note that whilst the items listed below should be applicable to pretty much any language/etc they have largely authored with C# in mind, and will make occasional references to C# types/constructs.
 
+### The principles:
+
 - Never use anything for 2 different things
     - This includes using something to both hold data, and to do things with it; an object may wrap a data structure (such as time series), but a data structure (data model) should never do things itself (simple read-only props are permitted)
     - Constructors on data structures should be removed; firstly it is a method, and methods don't belong on data structures, secondly they obsfucate the code and hide what is being assigned to what, and they do not scale as the data structure grows (3 params today, 15 tomorrow)
