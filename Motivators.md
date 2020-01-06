@@ -1,6 +1,6 @@
 # Motivators
 
-// Motivators ordered top (most important) to bottom (least important), as defined at https://management30.com/practice/moving-motivators/
+My personal motivators ordered top (most important) to bottom (least important), as defined at https://management30.com/practice/moving-motivators/, done as part of a workshop at Greenbyte AB whilst employed there, and added to the repo as I feel like they belong here.
 
 
 Honour:         I feel proud that my personal values are reflected in how I work.
