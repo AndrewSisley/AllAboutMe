@@ -1,6 +1,9 @@
-// Relative technical compentencies, ordered highest strength (10) to lowest (0)
-// Items marked with '*' have only been used outside of the the workplace/accademia
-// Items marked with '**' have only been used within the workplace as part of a proof-of-concept/hackathon, but may have been used heavily outside of formal paid work
+# Relative technical compentencies
+
+My relative technical compentencies, ordered highest strength (10) to lowest (0).
+
+- Items marked with '*' have only been used outside of the the workplace/accademia.
+- Items marked with '**' have only been used within the workplace as part of a proof-of-concept/hackathon, but may have been used heavily outside of formal paid work.
 
 Technology                                                      Proficiency score (0-10)
 C# (ASP.Net, WPF, .Net Core, Mono)                              10
