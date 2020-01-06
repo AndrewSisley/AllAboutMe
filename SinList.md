@@ -1,3 +1,7 @@
+# Sin list
+
+This file contains a list of coding mistakes that I have made and subsequently discovered since I started this list on approximately 2019-11-22.  I started it because I was sick of not having a good overview of the bugs I had introduced, and why I introduced them.  Hopefully it will help me spot patterns in my failures and adjust the way I work accordingly.  Pull requests highly appreciated.
+
 Type | Identifier | Date | Description | Cause
 ---- | ---------- | ---- | ----------- | -----
 Bug - external | GEC-3377 | 2019-9-25 | Colors not being calculated correctly in Widget | Added new complication to system that was being calculated in 2 different ways without fixing that first, also missed a test case
