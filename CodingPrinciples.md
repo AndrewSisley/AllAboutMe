@@ -35,6 +35,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
         - If not ever consumer of an interface uses all of its members then the interface should be broken up (can still have layers of implementing interfaces so that IC implements IA and IB)
         - Never hold non-type dependant members on the concrete type; if it only uses public members then it can live elsewhere, probably as an extension - this makes it far easier to maintain a cohesive codebase and segragate public members using interfaces.  Also minimizes the amount of code required to read if working in a class.
         - If a property is optional and it is known at compile-time whether it has a value or not, it should not be available on the object (hiding via an interface is permitted if otherwise impractical)
+        - Always seek to minimize the exposure of generics, if an object has members not dependent on object level generics they should be exposed via a generic-free interface extended by an interface containing the generic dependent members
 
 - Continuously document your code
     - Comments should be added where you are forced to do something counter-intuitive
