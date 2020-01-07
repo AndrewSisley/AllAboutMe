@@ -21,7 +21,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
     - If an alias is only used once, then it shouldn't be used at all (unless part of an object deconstruction, where sibling aliases are also referenced), if it is used more than once still heavily consider removing it in order to reduce missdirection
 
 - Limit the number of potential code paths
-    - If a method parameter can be null, then it should be optional; if it is optional it should never suprise anyone when it is null, if it is not then you don't need to code/read for imaginary cases where it is.
+    - If a method parameter can be null, then it should be optional; if it is optional it should never suprise anyone when it is null
     - Use types to handle type specific code paths, do not code for concrete types within the code consuming them; allows the compiler to do a lot of heavy lifting and helps keep the codebase cohesive, keeping type specific code near or on the type they pertain to, also saves anyone investigating type A from having to read the code for type B when investigating a problem 
     - Delete any code that isnt used, including unreachable code paths
     - Only use 'new' member declarations in interfaces/abstract members, can be really confusing on concrete implementations
