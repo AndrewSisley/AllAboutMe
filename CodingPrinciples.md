@@ -55,17 +55,17 @@ Please note that whilst the items listed below should be applicable to pretty mu
     - Magic numbers should never exist
 
 - Limit the scope of your changes
-    - If something desirable is enabled by changes made in a branch/PR do not do them in the branch, add a JIRA and add a comment with a link to the JIRA; this helps guard against scope-creep and limits the risk to the original PR
-    - If a refactoring would probably make it easier to do your current task, open a new JIRA and a new branch to do it in
-    - If a refactoring oportunity is spotted looking at a task and it is not relevant to the task at hand, open a new JIRA and do it seperately
-    - If you know something works and you want unit tests to guard against future changes, write the unit tests in a new branch with a new JIRA
+    - If something desirable is enabled by changes made in a branch/PR do not do them in the branch, add a ticket and then add a comment with a link to the ticket created; this helps guard against scope-creep and limits the risk to the original PR
+    - If a refactoring would probably make it easier to do your current task, open a new ticket and a new branch to do it in
+    - If a refactoring oportunity is spotted looking at a task and it is not relevant to the task at hand, open a new ticket and do it seperately
+    - If you know something works and you want unit tests to guard against future changes, write the unit tests in a new branch with a new ticket
 
 - Know what is important
     - Dont argue to hard over anything that doesnt matter much, if the topic is covered in here argue around the principle and try and refine it further.  If it is not in here and it does matter, add it to this document and refine it.
     - If something cant handle the core changes made and it isnt used by the customer consider deleting it with minimal investigation; for example unit tests that test very little but mock a lot, internal apps which may or may not still be used
     - Most non-I/O code doesn't care about performance, so dont worry about it
     - If non-I/O code cares about performance, benchmark it
-    - If working on a bug, try and find out why it happened and then try to make sure it cant happen again (possibly in a new JIRA/branch)
-    - Recognise when an arguement cannot be resolved by agreement, if it is not important, fold (possibly doing changes in another JIRA/branch) and document disagreement, if it is important take it up with someone else and if no agreement reached then, merge anyway.
+    - If working on a bug, try and find out why it happened and then try to make sure it cant happen again (possibly in a new ticket/branch)
+    - Recognise when an arguement cannot be resolved by agreement, if it is not important, fold (possibly doing changes in another ticket/branch) and document disagreement, if it is important take it up with someone else and if no agreement reached then, merge anyway.
     - Dont waste time waiting on a PR, if people are being unreasonably slow and costing time and risking merge bugs, merge without approval
     - If you know something works and will not be changed frequently, dont delay delivery for unit tests; the users dont care 
