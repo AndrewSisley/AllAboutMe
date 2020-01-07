@@ -17,7 +17,9 @@ Rust (Incl. WebAssembly) | 6**
 Python | 6
 TypeScript (React, Redux) | 6
 AWS (CloudFormation, Lambda, RDSes, Monitoring, Security) | 5
-Java | 5
+Heroku | 5
+Java | 4
+SharePoint | 4
 Go | 3
 Azure | 3
 TFS | 3
