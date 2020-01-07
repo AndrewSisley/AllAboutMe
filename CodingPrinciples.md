@@ -69,4 +69,4 @@ Please note that whilst the items listed below should be applicable to pretty mu
     - If working on a bug, try and find out why it happened and then try to make sure it cant happen again (possibly in a new ticket/branch)
     - Recognise when an arguement cannot be resolved by agreement, if it is not important, fold (possibly doing changes in another ticket/branch) and document disagreement, if it is important take it up with someone else and if no agreement reached then, merge anyway.
     - Dont waste time waiting on a PR, if people are being unreasonably slow and costing time and risking merge bugs, merge without approval
-    - If you know something works and will not be changed frequently, dont delay delivery for unit tests; the users dont care 
+    - If you know something works and it will not be changed frequently, dont delay delivery for unit tests; the users dont care; but do add a ticket to add them in later
