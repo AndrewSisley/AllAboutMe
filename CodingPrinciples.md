@@ -49,6 +49,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
         - If changing commented code update the comments in the same commit
         - If changing comments but not the corresponding code, do it in a seperate commit to any code changes
     - If something is deliberately and temporarily left undone, immediately add a comment and task to the PR
+    - Commit continuously; use WIP commits if need be when exploring, but use multiple and still try to describe what each does in the message and continuously break out clean commits, moving them to before the WIP commits in the branch when practical
     - Push continuously; documentation is useless if no one can read it, also backups up your work
     - Never throw the base Exception class, there is always a more specific type you could be using
     - Exceptions should be reserved for coding errors, and not for controlling flow; there is almost never a reason to deliberately throw them
