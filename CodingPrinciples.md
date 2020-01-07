@@ -22,7 +22,9 @@ Please note that whilst the items listed below should be applicable to pretty mu
 
 - Limit the number of potential code paths
     - If a method parameter can be null, then it should be optional; if it is optional it should never suprise anyone when it is null
-    - Delete any code that isnt used, including unreachable code paths
+    - Delete any code that isnt used
+        - Includes overly defensive code that is never used (e.g. null checks where it is never null)
+        - Includes the throwing of explicit exceptions that add very little/no value, where an exception would be thrown anyway
     - Use types to handle type specific code paths, do not code for concrete types within the code consuming them; allows the compiler to do a lot of heavy lifting and helps keep the codebase cohesive, keeping type specific code near or on the type they pertain to, also saves anyone investigating type A from having to read the code for type B when investigating a problem 
     - Only use 'new' member declarations in interfaces/abstract members, can be really confusing on concrete implementations
     - Always use the same default params in the implementation of a function as declared on the interface, can be really confusing otherwise
