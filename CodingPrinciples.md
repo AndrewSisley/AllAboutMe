@@ -33,7 +33,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
         - If a public member is only accessed from it's host it should be private/protected
         - If a public member is only accessed from it's project it should be internal
         - If not ever consumer of an interface uses all of its members then the interface should be broken up (can still have layers of implementing interfaces so that IC implements IA and IB)
-        - Never hold non-type dependant members on the concrete type; if it only uses public members then it can live elsewhere, this makes it far easier to maintain a cohesive codebase and segragate public members using interfaces.  Also minimizes the amount of code required to read if working in a class.
+        - Never hold non-type dependant members on the concrete type; if it only uses public members then it can live elsewhere, probably as an extension - this makes it far easier to maintain a cohesive codebase and segragate public members using interfaces.  Also minimizes the amount of code required to read if working in a class.
         - If a property is optional and it is known at compile-time whether it has a value or not, it should not be available on the object (hiding via an interface is permitted if otherwise impractical)
 
 - Continuously document your code
