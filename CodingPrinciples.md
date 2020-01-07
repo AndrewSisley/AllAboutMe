@@ -39,6 +39,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
 
 - Continuously document your code
     - Comments should be added where you are forced to do something counter-intuitive
+    - Comments should be removed if they document the obvious
     - Why you have made a given change should be handled in the commit message, not the code
     - Commits should do one thing
         - Always seperate refactoring commits from behavoural changes (including bug fixes)
