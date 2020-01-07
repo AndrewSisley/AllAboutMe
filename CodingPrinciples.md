@@ -16,6 +16,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
     - Group variable declarations within a scope with other similar variables; for example do all data retrieval at the top, and all modifications at the bottom.  This should almost always be prioritized ahead of the need to limit the lifetime of the objects
     - Seek to limit the lifetime/scope of an object; people reading the code wont need to worry about it for as long and it makes it harder to introduce mutations. This is secondary to the need to group similar variables
     - Always dispose any owned objects that are disposable as soon as possible
+    - Never dispose objects in a scope that doesn't own them
     - Prefer multiple loops to one if performance is not key and the loop needs to do multiple things, keeps thing seperate and easier to read/change/delete, also helps prevent variables from being used for different purposes, helps keep commits clean and independant
     - If an alias is only used once, then it shouldn't be used at all (unless part of an object deconstruction, where sibling aliases are also referenced), if it is used more than once still heavily consider removing it in order to reduce missdirection
 
