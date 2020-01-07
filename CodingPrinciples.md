@@ -63,7 +63,7 @@ Please note that whilst the items listed below should be applicable to pretty mu
 
 - Know what is important
     - Dont argue to hard over anything that doesnt matter much, if the topic is covered in here argue around the principle and try and refine it further.  If it is not in here and it does matter, add it to this document and refine it.
-    - If something cant handle the core changes made and it isnt used by the customer consider deleting it with minimal investigation; for example unit tests that test very little but mock a lot, internal apps which may or may not still be used
+    - If something cant handle the core changes made and it isn't used by the customer consider deleting it with minimal investigation; for example unit tests that test very little but mock a lot, internal apps which may or may not still be used
     - Most non-I/O code doesn't care about performance, so dont worry about it
     - If non-I/O code cares about performance, benchmark it
     - If working on a bug, try and find out why it happened and then try to make sure it cant happen again (possibly in a new ticket/branch)
