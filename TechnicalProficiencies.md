@@ -23,6 +23,7 @@ SharePoint | 4
 Go | 3
 Azure | 3
 TFS | 3
+Kotlin | 3*
 Ruby | 2**
 C | 2*
 C++ | 2*
